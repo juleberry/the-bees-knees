@@ -1,16 +1,138 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio of Jule Berry | Front-End Developer</title>
+  <script src="https://kit.fontawesome.com/e296688867.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-  <h1>The Bees Knees</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima neque in saepe nam corporis labore vitae. Voluptas, eius eveniet. Rem neque dolorum porro possimus voluptatem expedita nobis laboriosam magni libero?
-  Et quia quidem minus error ad laboriosam illo sit nam. Earum, nobis eaque a commodi pariatur sapiente illo delectus iure harum, voluptatum cum magnam veniam facilis officiis soluta mollitia? Quibusdam.
-  Ab corrupti consequatur incidunt consectetur debitis quaerat nemo officiis assumenda impedit minima, reprehenderit aliquam, expedita nam aperiam quia ducimus quos reiciendis nostrum exercitationem mollitia. Eos quisquam minima repellat amet mollitia?</p>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis distinctio eaque sit quis. Hic, qui incidunt! Amet consequatur tempora qui fuga nostrum sapiente est aperiam? Porro a vero velit maiores?</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam adipisci quo doloremque magnam voluptas sit et repudiandae sunt, unde possimus ex rem ipsum officiis minus officia obcaecati suscipit voluptate. At.</p>
+  <section class="hero" id="top">
+    <nav>
+      <img class="logo"
+      src="src\images\JBmocklogo_trnsbg.png" alt="Jule Berry's logo">
+      <ul class="main-menu" id="nav-list">
+        <li><a href="#about-me" class="nav-list-link">Bio</a></li>
+        <li><a href="#projects" class="nav-list-link">Projects</a></li>
+        <li><a href="#contact" class="nav-list-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger"><span id="nav-menu-text">Menu</span><br><i class="fa-solid fa-bars"></i></button>
+    </nav>
+    <a href="#top"><i class="fa-solid fa-square-caret-up"></a></i></button>
+  <div class="hero-area">
+    <div class="hero-text">
+    <h1 id="name">Jule Berry</h1>
+    <p id="title">Front-End Web Developer</p>
+    <div class="button"><a href="#about-me">About Jule</a></div>
+    </div>
+    <div class="socials">
+      <!-- Note: to change color add fill="#color" within svg tag-->
+      <!-- twitter social icon -->
+      <div class="social-icon">
+        <a href="https://www.twitter.com/devjube333" >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24" id="twit-svg"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/></svg>
+      </a>
+    </div>
+      <!-- end twitter social icon -->
+      <!-- linkedin social icon -->
+      <div class="social-icon">
+        <a href="https://www.linkedin.com/in/juleberry">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24" id="li-svg"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg>
+      </a>
+    </div>
+      <!-- end linkedin social icon -->
+      <!-- github social icon -->
+      <div class="social-icon">
+        <a href="https://github.com/juleberry">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24" id="github-svg"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm2.218 18.616c-.354.069-.468-.149-.468-.336v-1.921c0-.653-.229-1.079-.481-1.296 1.56-.173 3.198-.765 3.198-3.454 0-.765-.273-1.389-.721-1.879.072-.177.312-.889-.069-1.853 0 0-.587-.188-1.923.717-.561-.154-1.159-.231-1.754-.234-.595.003-1.193.08-1.753.235-1.337-.905-1.925-.717-1.925-.717-.379.964-.14 1.676-.067 1.852-.448.49-.722 1.114-.722 1.879 0 2.682 1.634 3.282 3.189 3.459-.2.175-.381.483-.444.936-.4.179-1.413.488-2.037-.582 0 0-.37-.672-1.073-.722 0 0-.683-.009-.048.426 0 0 .46.215.777 1.024 0 0 .405 1.25 2.353.826v1.303c0 .185-.113.402-.462.337-2.782-.925-4.788-3.549-4.788-6.641 0-3.867 3.135-7 7-7s7 3.133 7 7c0 3.091-2.003 5.715-4.782 6.641z"/></svg>
+      </a>
+    </div>
+      <!-- end github social icon -->
+    </div>
+  </div>
+  </section>
+  <section class="sub-section" id="about-me">
+    <div class="information">
+      <h2 class="section-title">About Me</h2>
+      <div class="bio-container">
+        <div class="bio-text">
+    <p id="main-bio-text">
+    <img src="src\images\LI_headshot.jpg" class="headshot" alt="Jule Berry headshot">
+      Hello, my name is Jule Berry. I am a Front-End Web Developer and Software Engineering Student.
+    </p>
+      <p>
+      I am located in Leesburg, Virginia, a suburb of Washington, DC.
+      <br>
+      I am currently enrolled in a Software Engineering program through Per Scholas and look forward to applying what I learn to further establish this portfolio.
+      </p>
+      <p style="font-style: italic;">
+      I am always looking for networking opportunities so please feel free to connect via <a href="https://www.linkedin.com/in/juleberry">LinkedIn</a>.
+    </p>
+    </div>
+      </div>
+    </div>
+  </section>
+  <section class="sub-section-alt" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img class="project-image" src="src\images\Product Landing Page Mockup.png" alt="Product Landing Page Project Tile">
+        <h3>Product Landing Page</h3>
+        <p class="subtext">A product landing page for a reseller or distributor who sells subscription box services.<br>(Subpage mock ups coming soon.)</p>
+        <hr>
+        <p><i class="fa-brands fa-html5" id="icon-html5"></i>
+        <i class="fa-brands fa-css3-alt" id="icon-css3"></i>
+        <p class="subtext"><a href="https://codepen.io/jube333" class="project-link">View Here</a></p>
+      </div>
+      <div class="project-card">
+        <img class="project-image" src="src\images\Custom Email Mockup 2.png" alt="Promotional Email Project Tiles">
+        <h3>Promotional Email</h3>
+        <p class="subtext">Inspired by promotional emails from a popular online retailer of women's clothing and accessories. Easily customizable to meet your needs. </p>
+        <hr>
+      <p><i class="fa-brands fa-html5" id="icon-html5"></i>
+        <i class="fa-brands fa-css3-alt" id="icon-css3"></i>
+        <p class="subtext"><a href="https://codepen.io/jube333" class="project-link">View Here</a></p>
+      </div>
+      <div class="project-card">
+        <img class="project-image" src="src\images\Client Survey Mockup.png" alt="Customer Feedback Form Project Tile">
+        <h3>Customer Feedback Form</h3>
+        <p class="subtext">A great website addition to acquire feedback in attempts to address any customer concerns <em>before</em> permanent social media reviews.</p>
+        <hr>
+        <p><i class="fa-brands fa-html5" id="icon-html5"></i>
+        <i class="fa-brands fa-css3-alt" id="icon-css3"></i>
+        <p class="subtext"><a href="https://codepen.io/jube333" class="project-link">View Here</a></p>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="src\images\Project Coming Soon.png" alt="Jewelry Website Clone project">
+          <h3>CMS Site Clone</h3>
+          <p class="subtext">Hand coded clone of my jewelry website which was created with GoDaddy's CMS</p>
+          <hr>
+        <p><i class="fa-brands fa-html5" id="icon-html5"></i>
+          <i class="fa-brands fa-css3-alt" id="icon-css3"></i>
+          <p class="subtext"><a href="https://github.com/juleberry" class="project-link">View Here</a></p>
+        </div>
+      <div class="project-card">
+        <img class="project-image" src="src\images\Project Coming Soon.png" alt="Portfolio Project Image Tile version 2">
+        <h3>Portfolio (version 2)</h3>
+        <p class="subtext">A portfolio with a neon color scheme.<br>Includes bio, projects, and contact information.</p>
+        <hr>
+        <p><i class="fa-brands fa-html5" id="icon-html5"></i>
+        <i class="fa-brands fa-css3-alt" id="icon-css3"></i>
+        <i class="fa-brands fa-js-square" id="icon-js"></i>
+        <p class="subtext"><a href="https://github.com/juleberry/portfolio" class="project-link">View Here</a></p>
+      </div>
+    </div>
+  </section>
+  <footer id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p><a href="https://www.linkedin.com/in/juleberry">LinkedIn</a> | <a href="https://www.twitter.com/devjube333">Twitter</a>
+    </p>
+    <p id="copyright">&copy; <script type="text/javascript">
+      document.write(new Date().getFullYear());
+    </script> Jule Berry</p>
+  </footer>
+  <script src="src/script.js"></script>
 </body>
 </html>
