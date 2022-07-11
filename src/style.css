@@ -134,6 +134,10 @@ color: white;
   box-shadow: 0px 2px magenta;
 }
 
+#about-heading {
+  text-align: center;
+}
+
 .hero-text {
   margin-left: 80px;
   margin-bottom: 300px;
