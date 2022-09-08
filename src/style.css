@@ -6,6 +6,7 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 a {
@@ -40,6 +41,12 @@ section {
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  background-color: magenta;
+}
+
+#about-me {
+  background-color: white;
+  height: 100vh;
 }
 
 .logo {
@@ -132,10 +139,6 @@ color: white;
   letter-spacing: 2px;
   transition: ease-in 1s;
   box-shadow: 0px 2px magenta;
-}
-
-#about-heading {
-  text-align: center;
 }
 
 .hero-text {
@@ -246,8 +249,9 @@ color: white;
 
 .project-container {
   display: flex;
-  justify-content: space-around;
-  padding: 60px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .project-card {
@@ -256,6 +260,7 @@ color: white;
   box-shadow: 5px 5px 20px gray;
   margin: 5px;
   border-radius: 10px;
+  background-color: white;
 }
 
 .subtext {
@@ -312,6 +317,7 @@ color: goldenrod;
 
   .project-container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 
