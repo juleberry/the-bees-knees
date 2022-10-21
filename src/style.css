@@ -188,7 +188,7 @@ color: white;
 }
 
 /* project icons */
-#icon-html5, #icon-css3, #icon-js {
+#icon-html5, #icon-css3, #icon-js, #icon-react {
   width: 20px;
   height: 20px;
 }
@@ -203,6 +203,15 @@ color: white;
 
 #icon-js {
   color: goldenrod;
+}
+
+#icon-react {
+  color: #61DBFB;
+}
+
+.iconLg {
+  width: 60px;
+  height: 60px;
 }
 /* project icons - end*/
 
@@ -258,7 +267,6 @@ color: white;
 
 .project-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: 100vh;
