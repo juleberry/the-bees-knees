@@ -7,6 +7,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  background-color: black;
 }
 
 a {
@@ -305,7 +306,7 @@ color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  height: 100vh;
+  height: auto;
 }
 
 .project-card {
@@ -389,26 +390,38 @@ color: goldenrod;
   #main-bio-subtext {
     font-size: .75rem;
   }
+
   .project-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     height: auto;
-    width: 100vw;
+    left: 0;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
   }
 
   .project-card {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10px;
-    width: 400px;
+    width: 300px;
+  }
+
+  .project-image {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
   }
 
   .main-menu {
     display: none;
     align-items: center;
     text-align: right;
-    /* padding-right: 20px; */
+    /* padding-right: 40px; */
     border-radius: 15px;
     font-size: 1.25rem;
     font-weight: 600;
@@ -418,7 +431,7 @@ color: goldenrod;
   .hamburger  {
     display: block;
     position: fixed;
-    right: 10px;
+    right: 50px;
     border: 0;
     background-color: black;
     color: white;
@@ -440,7 +453,7 @@ color: goldenrod;
     width: auto;
     text-align: center;
     position: fixed;
-    right: 100px;
+    right: 130px;
     margin: 10px;
   }
 
@@ -457,4 +470,39 @@ color: goldenrod;
   .sub-section {
     height: 100vh;
   }
+
+  #aboutMeBtn {
+    visibility: hidden;
+  }
+
+  .certContainer {
+    position: absolute;
+    bottom: .5rem;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  }
+
+  @media only screen and (max-width: 400px) {
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    .project-card {
+      width: 220px;
+    }
+
+    .certContainer {
+      position: absolute;
+      bottom: .5rem;
+      left: 1%;
+    }
+
+    .project-container {
+      width: 100%;
+      height: auto;
+    }
   }
