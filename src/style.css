@@ -299,6 +299,19 @@ color: white;
   color: orange;
 }
 
+#subText {
+  font-weight: bold;
+}
+
+#githubLink {
+  font-weight: bold;
+}
+
+#githubLink:hover {
+color: white;
+text-decoration: underline;
+}
+
 .hamburger {
   display: none;
 }
@@ -331,6 +344,10 @@ color: goldenrod;
 
   h1 {
     font-size: 5rem;
+  }
+
+  #about-me {
+    height: auto;
   }
 
   #main-bio-subtext {
