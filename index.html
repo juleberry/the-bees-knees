@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
   <meta name="description" content="Jule Berry | Software Engineer | USA | #openToWork"
-  <title></title>
+  
+  <link rel="icon" type="image/jpg" href="favicon.ico"/>
   <script src="https://kit.fontawesome.com/e296688867.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
   <section class="hero" id="top">
     <nav>
-      <img class="logo"
+      <img class="logo" id="jbLogo"
       src="src\images\JBmocklogo_trnsbg.png" alt="Jule Berry's project logo">
       <ul class="main-menu" id="nav-list">
         <li><a href="#about-me" class="nav-list-link">Bio</a></li>
@@ -24,6 +25,7 @@
       <button class="hamburger" id="hamburger"><span id="nav-menu-text">Menu</span><br><i class="fa-solid fa-bars"></i></button>
     </nav>
     <a href="#top"><i class="fa-solid fa-square-caret-up"></a></i></button>
+<!-- HEADER -->
   <div class="hero-area">
     <div class="hero-text">
     <h1 id="name">Jule Berry</h1>
@@ -32,10 +34,14 @@
       <i class="fa-brands fa-css3-alt iconLg" id="icon-css3"></i> <i class="fa-brands fa-html5 iconLg" id="icon-html5"></i></p>
     <div class="button" id="aboutMeBtn"><a href="#about-me">About Jule</a></div>
     </div>
+
+<!-- Certificate Images -->
     <div class="certContainer">
       <a href="src\images\freeCodeCamp_Certificate_WebDesign_JuleBerry.png" target="_blank"><img id="fccCert" class="certificates" src="src\images\freeCodeCamp_Certificate_WebDesign_JuleBerry_thumb.png" /></a>
       <a href="src\images\PerScholas_SoftwareEngineering_Certificate_JuleBerry.jpg" target="_blank"><img id="psCert" class="certificates" src="src\images\PerScholas_SoftwareEngineering_Certificate_JuleBerry_thumb.jpg" /></a>
     </div>
+
+<!-- Social Icons -->
     <div class="socials">
       <!-- Note: to change color add fill="#color" within svg tag-->
       <!-- twitter social icon -->
@@ -62,6 +68,8 @@
     </div>
   </div>
   </section>
+
+<!-- About Section -->
   <section class="sub-section" id="about-me">
     <div class="information">
       <h2 class="section-title">About Me</h2>
@@ -81,18 +89,22 @@
       </div>
     </div>
   </section>
+
+<!-- Project Section -->
   <section class="sub-section-alt" id="projects">
     <h2 class="section-title">Projects</h2>
     <p id="subText">Please explore my <a href="http://www.github.com/juleberry" target="_blank"><span id="githubLink">GitHub</span></a> to see what else I've been working on.</p>
     <div class="project-container">
       <div class="project-card">
         <img class="project-image" src="src\images\jeoQ mockup.png" alt="JService Quiz Trivia App Project Tile">
-        <h3>JService API<br />Quiz App</h3>
-        <p class="subtext">A simple trivia app created with the JService API</p>
+        <h3>Jeo Quiz App</h3>
+        <p class="subtext">A trivia app created with the JService API. Generate a random question, reveal answers & keep score.</p>
         <hr>
-        <p><i class="fa-brands fa-react" id="icon-react"></i> <i class="fa-brands fa-square-js" id="icon-js"></i> 
-        <i class="fa-brands fa-css3-alt" id="icon-css3"></i> <i class="fa-brands fa-html5" id="icon-html5"></i>
-        <p class="subtext"><a href="https://jeoquiz-wk10dy3.netlify.app/" target="_blank" class="project-link">App</a> | <a href="https://github.com/juleberry/Week10Day3HW--Jeo-Quiz" class="project-link">Code</a></p>
+        <p>
+          <i class="fa-brands fa-react" id="icon-react"></i> <i class="fa-brands fa-square-js" id="icon-js"></i> 
+          <i class="fa-brands fa-css3-alt" id="icon-css3"></i> <i class="fa-brands fa-html5" id="icon-html5"></i>
+        </p>
+        <p class="subtext"><a href="https://jeoquiz-wk10dy3.netlify.app/" target="_blank" class="project-link">App</a> | <a href="https://github.com/juleberry/Jeo-Quiz" class="project-link" target="_blank">Code</a></p>
       </div>
 
       <!-- <div class="project-card">
@@ -110,21 +122,38 @@
         <h3>Promotional Email</h3>
         <p class="subtext">Inspired by promotional emails from a popular online retailer of women's clothing and accessories. Easily customizable for your needs. </p>
         <hr>
-      <p><i class="fa-brands fa-html5" id="icon-html5"></i>
-        <i class="fa-brands fa-css3-alt" id="icon-css3"></i>
-        <p class="subtext"><a href="https://codepen.io/jube333" target="_blank" class="project-link">View Here</a></p>
+        <p>
+          <i class="fa-brands fa-html5" id="icon-html5"></i>
+          <i class="fa-brands fa-css3-alt" id="icon-css3"></i>
+        </p>
+        <p class="subtext">
+          <a href="https://jbmockemailhtmlcss.netlify.app/" target="_blank" class="project-link">App</a> | <a href="https://github.com/juleberry/mockEmail-HTML-CSS" class="project-link" target="_blank">Code</a></p>
       </div>
       <div class="project-card">
         <img class="project-image" src="src\images\Client Survey Mockup.png" alt="Customer Feedback Form Project Tile">
         <h3>Customer Feedback Form</h3>
         <p class="subtext">A great website addition to acquire feedback in attempts to address any customer concerns <em>before</em> permanent social media reviews.</p>
         <hr>
-        <p><i class="fa-brands fa-html5" id="icon-html5"></i>
-        <i class="fa-brands fa-css3-alt" id="icon-css3"></i>
-        <p class="subtext"><a href="https://codepen.io/jube333" target="_blank" class="project-link">View Here</a></p>
+        <p>
+          <i class="fa-brands fa-html5" id="icon-html5"></i>
+          <i class="fa-brands fa-css3-alt" id="icon-css3"></i>
+        </p>
+        <p class="subtext"><a href="https://jb-mocksalonsurvey.netlify.app/" target="_blank" class="project-link">App</a> | <a href="https://github.com/juleberry/mockSalonSurvey-HTML-CSS" class="project-link" target="_blank">Code</a></p>
+        </div>
+      <div class="project-card" id="miniCard">
+        <h3>Portfolio</h3>
+        <p>Current version of my portfolio</p>
+        <hr>
+        <p>
+          <i class="fa-brands fa-html5" id="icon-html5"></i>
+          <i class="fa-brands fa-css3-alt" id="icon-css3"></i>
+        </p>
+        <p class="subtext"><a href="https://juleberry.netlify.app/" target="_blank" class="project-link">App</a> | <a href="https://github.com/juleberry/the-bees-knees" class="project-link" target="_blank">Code</a></p>
         </div>
     </div>
   </section>
+
+<!-- Contact and Footer Section-->
   <footer id="contact">
     <h2 class="section-title">Contact Me</h2>
     <p><a href="https://www.linkedin.com/in/juleberry" target="_blank">LinkedIn</a> | <a href="https://www.twitter.com/devjube333" target="_blank">Twitter</a> | <a href="https://linktr.ee/juleberry" target="_blank">Other</a>
