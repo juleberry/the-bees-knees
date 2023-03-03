@@ -242,7 +242,8 @@ font-weight: 600;
 }
 
 .main-menu {
-  padding-right: 10px;
+  padding-right: 80px;
+  font-size: 2rem;
 }
 
 .headshot {
@@ -300,7 +301,7 @@ font-weight: 600;
 
 .certContainer {
   position: absolute;
-  bottom: .5rem;
+  bottom: .75rem;
   left: 60%;
   display: flex;
   justify-content: space-between;
@@ -399,10 +400,14 @@ color: goldenrod;
   font-weight: 600;
 }
 
-@media only screen and (max-width: 900px) {
+.loaded {
+  transform: rotate(15deg);
+}
+
+@media only screen and (max-width:1130px) {
 
   h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   #about-me {

@@ -16,11 +16,3 @@ hamburgerButton.addEventListener('keyup', function(e) {
     closeNav();
   }
 });
-
-
-const logo = document.getElementById('jbLogo')
-function logoFlip() {
-  $('logo').load(function() {
-    $(this).addClass("loaded");
-  });
-}
