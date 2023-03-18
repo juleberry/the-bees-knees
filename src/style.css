@@ -230,9 +230,17 @@ font-weight: 600;
 }
 
 .iconLg {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
+
+.iconHover {
+  width: 120px;
+  height: 120px;
+  transform: rotate(10deg);
+  transition: ease .1s;
+}
+
 /* project icons - end*/
 
 .information {
@@ -260,6 +268,7 @@ font-weight: 600;
   display: flex;
   flex-direction: column;
   height: auto;
+  width: 90%;
 }
 
 .bio-text {
@@ -319,8 +328,9 @@ font-weight: 600;
 .project-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: auto;
+  margin-right: 60px;
 }
 
 .project-card {
