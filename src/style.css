@@ -141,6 +141,11 @@ font-weight: 600;
   box-shadow: 0px 2px magenta;
 }
 
+#title {
+  font-weight: bold;
+  font-style: italic;
+}
+
 #title:hover {
   letter-spacing: 2px;
   transition: ease 2s;
@@ -205,8 +210,19 @@ font-weight: 600;
 }
 
 #li-svg:hover, #twit-svg:hover, #github-svg:hover {
-  fill: goldenrod;
   transition: ease 1s;
+}
+
+#li-svg:hover {
+  fill: #0072B1;
+}
+
+#twit-svg:hover {
+  fill: #1DA1F2;
+}
+
+#github-svg:hover {
+  fill: #dbd2d2;
 }
 
 /* project icons */
@@ -306,8 +322,8 @@ font-weight: 600;
 }
 
 .certificates:hover {
-  transition: ease-in .5s;
   border: 1px solid magenta;
+  transform: scale(110%);
 }
 
 .certContainer {
@@ -325,6 +341,10 @@ font-weight: 600;
 
 #fccCert {
   margin-right: 1rem;
+}
+
+.enlargeCert {
+  border-width: 5px;
 }
 
 .project-container {
