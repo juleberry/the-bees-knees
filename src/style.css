@@ -32,6 +32,7 @@ p {
   font-weight: 400;
 }
 
+
 section {
   background-color: white;
 }
@@ -126,13 +127,17 @@ color: magenta;
 transition: none;
 font-weight: 600;
 }
+.hero {
+  background-image: url('../src/images/illuminated_keyboard_sm.jpg');
+}
 
 .hero-area {
   display: flex;
   height: 100%;
   justify-content: space-between;
   align-items: center;
-}
+  }
+
 
 #name:hover {
   color: goldenrod;
@@ -350,9 +355,10 @@ font-weight: 600;
 .project-container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-around;
   height: auto;
-  margin-right: 60px;
+  margin-right: 75px;
 }
 
 .project-card {
